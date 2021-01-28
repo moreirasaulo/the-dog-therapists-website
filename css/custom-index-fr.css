@@ -1,0 +1,68 @@
+
+
+ .main-text {
+    position: absolute;
+    top: 40vh;
+    width: 96%;
+    z-index: 10;   
+}
+
+.main-text h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    line-height: 3.4rem;
+    font-family: 'Salsa', cursive;
+    font-size: 3.6rem;
+    margin-bottom: 1.3rem; 
+}
+
+.head {
+   margin-right: 12rem;  
+}
+
+.head-sub {
+    margin-right: -2.1rem;
+}
+
+.header-button {
+   margin-right: 8rem; 
+}
+
+.main-text h5 {
+   font-size: 1.4rem;
+   margin-right: -1.8rem;
+   font-weight: 600;
+}
+
+.main-text .col-md-12 p {
+    margin-top: 2rem;
+}
+
+#aboutUs p {
+    margin-top: 1rem;
+}
+
+@media(max-width:805px){
+    .head {
+        margin-right: 0rem;
+        padding-top: .4rem;
+     }
+     .head-sub {
+        margin-right: 0rem;
+        padding-bottom: .6rem;
+    }
+     .main-text h1 {
+       margin-bottom: 0;
+       line-height: 4rem;
+     }
+     
+     .header-button {
+        margin-right: 0rem; 
+     }
+     
+     .main-text h5 {
+        margin-right: 0rem;
+     }
+
+}

@@ -1,0 +1,22 @@
+#trainers {
+    background-image: url("../images/trainers.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 70vh;
+    width: 100%;
+ }
+
+ .trainers-body h3 {
+     margin-top: 3rem;
+     margin-bottom: 2rem;
+ }
+
+ .saulomoreira p, .kseniastudilina p, .jongwonlee p {
+     text-align: justify;
+ }
+
+ .saulomoreira img, .kseniastudilina img, .jongwonlee img {
+     margin-bottom: 2rem;
+ }
